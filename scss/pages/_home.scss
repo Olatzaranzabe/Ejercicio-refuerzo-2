@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.list-pokemon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pokemonImage , .adalab-image{
+    width: 160px;
+    height: 195px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    
+}
+
+.list-element{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
